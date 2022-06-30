@@ -1,0 +1,29 @@
+footer {
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+}
+
+.alert {
+  background-color: coral;
+  padding: 20px 40px;
+  min-width: 420px;
+  border-radius: 4px;
+  border-left: 4px solid rgb(122, 44, 15);
+
+  font-size: 2rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&family=Urbanist&display=swap");
+
+:root {
+  --font-family-Roboto: "Roboto", sans-serif;
+  --font-family-Rubik: "Rubik", sans-serif;
+}
+
+.font-Roboto {
+  font-family: var(--font-family-Roboto);
+}
+.font-Rubik {
+  font-family: var(--font-family-Rubik);
+}
